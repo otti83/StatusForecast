@@ -1,0 +1,237 @@
+/* StatusForecast — English (Base) */
+
+/* Tabs / sections */
+"tab.today" = "Today";
+"tab.weekly" = "Weekly";
+"tab.environment" = "Environment";
+"tab.map" = "Nearby";
+"map.legend.temp" = "Temperature";
+"map.legend.wind" = "Wind arrow";
+"map.subtitle" = "Current temperature & wind around %@";
+"loading.map" = "Loading nearby grid…";
+"env.uv" = "UV index";
+"env.uv.peak_at" = "Peak %@ at %.1f";
+"env.uv.low" = "Low";
+"env.uv.moderate" = "Moderate";
+"env.uv.high" = "High";
+"env.uv.veryhigh" = "Very high";
+"env.uv.extreme" = "Extreme";
+"env.aqi" = "Air quality (US AQI)";
+"env.aqi.pm25" = "PM2.5 %.0f μg/m³";
+"env.aqi.pm10" = "PM10 %.0f μg/m³";
+"env.aqi.good" = "Good";
+"env.aqi.moderate" = "Moderate";
+"env.aqi.usg" = "Unhealthy for sensitive";
+"env.aqi.unhealthy" = "Unhealthy";
+"env.aqi.veryunhealthy" = "Very unhealthy";
+"env.aqi.hazardous" = "Hazardous";
+"env.visibility" = "Visibility";
+"env.visibility.km" = "%.0f km";
+"env.sunshine" = "Sunshine";
+"env.sunshine.hours" = "%.1f h";
+"env.cloud" = "Cloud cover";
+"env.cloud.now" = "%.0f%%";
+"loading.env" = "Loading environment data…";
+"env.humidity" = "Humidity";
+"env.pressure" = "Pressure (sea level)";
+"env.wind" = "Wind speed";
+"env.wind.solid" = "wind";
+"env.wind.gust" = "gust";
+"env.visibility.chart" = "Visibility";
+"env.cloud.layers" = "Cloud layers";
+"env.cloud.low" = "Low";
+"env.cloud.mid" = "Mid";
+"env.cloud.high" = "High";
+"env.radiation" = "Solar radiation";
+"env.radiation.unit" = "W/m²";
+"tab.rain" = "Rain";
+"section.observation" = "Observation %@";
+"section.today_24h" = "Today";
+"section.tomorrow_24h" = "Tomorrow";
+"chart.label.temp" = "Temperature [%@]";
+"chart.label.precip" = "Precipitation [mm]";
+"section.todays_lohi" = "Today's min / max";
+"tile.temp_range" = "Lo / Hi";
+"section.weekly_temp" = "Weekly temperature";
+"section.reliability" = "Reliability";
+
+/* Tile titles */
+"tile.humidity" = "Humidity";
+"tile.wind" = "Wind";
+"tile.pressure" = "Pressure";
+"tile.rain_1h" = "Rain (1h)";
+"tile.rain_24h" = "Rain (24h)";
+"tile.sun_1h" = "Sunshine (1h)";
+"tile.apparent" = "Feels like";
+"tile.discomfort" = "Discomfort %d  %@";
+
+/* Discomfort labels */
+"discomfort.chilly" = "chilly";
+"discomfort.neutral" = "neutral";
+"discomfort.comfortable" = "comfortable";
+"discomfort.warm" = "warm";
+"discomfort.hot" = "hot";
+"discomfort.sweaty" = "very hot, sweaty";
+"discomfort.extreme" = "unbearable";
+
+/* Day labels */
+"day.today" = "Today";
+"day.tomorrow" = "Tomorrow";
+
+/* POP */
+"pop.slot.0_6" = "0–6";
+"pop.slot.6_12" = "6–12";
+"pop.slot.12_18" = "12–18";
+"pop.slot.18_24" = "18–24";
+"pop.row.today" = "Today";
+"pop.row.tomorrow" = "Tomorrow";
+"pop.note.openmeteo" = "* tomorrow uses Open-Meteo 1h forecast";
+"pop.note.jma_pending" = "* tomorrow's 6h POPs publish after 5 AM JST";
+
+/* Rain tab */
+"rain.title" = "60-min rainfall nowcast";
+"rain.subtitle.yahoo" = "Yahoo! Weather API";
+"rain.subtitle.mesh" = "1 km mesh · 10-min step";
+"rain.area" = "Area";
+"rain.legend.observed" = "Observed (last 60 min)";
+"rain.legend.forecast" = "Forecast (next 60 min)";
+"rain.unit" = "Unit: mm/h";
+"rain.next_rain" = "Next rain";
+"rain.next.in" = "in %d min";
+"rain.next.none" = "none in 60 min";
+"rain.max60" = "Max (60 min)";
+"rain.latest_obs" = "Latest observation";
+"rain.footnote" = "Precipitation intensity is converted from radar reflectivity and may differ from actual rainfall.";
+"rain.issued_at" = "Issued at %@";
+
+/* Weather categories */
+"weather.sunny" = "Sunny";
+"weather.partlyCloudy" = "Partly cloudy";
+"weather.cloudy" = "Cloudy";
+"weather.rain" = "Rain";
+"weather.heavyRain" = "Heavy rain";
+"weather.sleet" = "Sleet";
+"weather.snow" = "Snow";
+"weather.thunder" = "Thunderstorm";
+"weather.fog" = "Fog";
+"weather.unknown" = "—";
+
+/* Wind directions */
+"wind.calm" = "Calm";
+"wind.dir.N" = "N";
+"wind.dir.NNE" = "NNE";
+"wind.dir.NE" = "NE";
+"wind.dir.ENE" = "ENE";
+"wind.dir.E" = "E";
+"wind.dir.ESE" = "ESE";
+"wind.dir.SE" = "SE";
+"wind.dir.SSE" = "SSE";
+"wind.dir.S" = "S";
+"wind.dir.SSW" = "SSW";
+"wind.dir.SW" = "SW";
+"wind.dir.WSW" = "WSW";
+"wind.dir.W" = "W";
+"wind.dir.WNW" = "WNW";
+"wind.dir.NW" = "NW";
+"wind.dir.NNW" = "NNW";
+
+/* Header / footer */
+"header.no_location" = "No location";
+"header.refresh" = "Refresh";
+"header.open_in_browser" = "Open official forecast in browser";
+"footer.last_updated" = "Updated %@";
+"footer.settings" = "Settings";
+
+/* Loading / error */
+"loading.amedas" = "Loading observation…";
+"loading.weekly" = "Loading weekly forecast…";
+"loading.yahoo" = "Loading Yahoo! nowcast…";
+"error.no_location" = "No location configured";
+
+/* Issues */
+"issue.jma" = "Could not load JMA forecast";
+"issue.amedas" = "Could not load AMeDAS observation";
+"issue.yahoo" = "Could not load Yahoo! rainfall";
+"issue.yahoo.no_key" = "Yahoo! API key not set";
+"issue.openMeteo" = "Could not load Open-Meteo hourly";
+"issue.wifi_only_skip" = "Wi-Fi only — skipped scheduled refresh";
+
+/* Display modes */
+"display.weekly" = "Weekly";
+"display.realtime" = "Realtime";
+"display.daily" = "Day";
+
+/* Icon styles */
+"icon.mono" = "Monochrome";
+"icon.color" = "Color";
+
+/* Refresh intervals */
+"refresh.minutes" = "%d min";
+
+/* Settings — tabs */
+"settings.tab.general" = "General";
+"settings.tab.locations" = "Locations";
+"settings.tab.refresh" = "Refresh";
+"settings.tab.advanced" = "Advanced";
+
+/* General tab */
+"settings.general.display" = "Display";
+"settings.general.startup" = "Startup";
+"settings.general.menubar_mode" = "Menu bar mode";
+"settings.general.icon" = "Icon";
+"settings.general.decimal" = "Show decimal temperature";
+"settings.general.unit" = "Temperature unit";
+"settings.general.unit.metric" = "Celsius (°C)";
+"settings.general.unit.imperial" = "Fahrenheit (°F)";
+"settings.general.launch_at_login" = "Launch at login";
+"settings.general.refresh_on_launch" = "Refresh on launch";
+"settings.general.open_login_items" = "Open System Settings → Login Items";
+"settings.general.language" = "Language";
+"settings.general.language_note" = "Applies immediately. Persists on next launch.";
+"settings.general.language.system" = "System";
+"settings.general.language.en" = "English";
+"settings.general.language.ja" = "日本語";
+
+/* Refresh tab */
+"settings.refresh.interval" = "Auto-refresh interval";
+"settings.refresh.wifi_only" = "Refresh only on Wi-Fi";
+"settings.refresh.last" = "Last refresh";
+"settings.refresh.now" = "Refresh now";
+
+/* Locations tab */
+"settings.locations.registered" = "Registered locations";
+"settings.locations.add" = "Add location";
+"settings.locations.search_placeholder" = "Search city (e.g. Tokyo, Osaka, San Francisco)";
+"settings.locations.cancel" = "Cancel";
+"settings.locations.searching" = "Searching…";
+"settings.locations.no_results" = "No results";
+"settings.locations.region.japan" = "Japan (JMA)";
+"settings.locations.region.global" = "Global (Open-Meteo)";
+
+/* Advanced tab */
+"settings.advanced.yahoo_credentials" = "Yahoo! Weather API credentials";
+"settings.advanced.yahoo_client_id" = "Yahoo! Client ID (YOLP appid)";
+"settings.advanced.save" = "Save";
+"settings.advanced.clear" = "Clear";
+"settings.advanced.set" = "Configured";
+"settings.advanced.unset" = "Not set";
+"settings.advanced.import_note" = "On first launch, imports from `~/Desktop/StatusForecast/Weather API.txt`.";
+"settings.advanced.maintenance" = "Maintenance";
+"settings.advanced.yahoo_requests" = "Yahoo! requests today (approx.)";
+"settings.advanced.clear_cache" = "Clear disk cache";
+"settings.advanced.cache_cleared" = "Cache cleared";
+"settings.advanced.openmeteo" = "Open-Meteo";
+"settings.advanced.openmeteo.toggle" = "Use Open-Meteo (hourly forecast)";
+"settings.advanced.openmeteo.note" = "Supplements hourly temperature / humidity / wind / POP. When OFF the app runs on JMA only.";
+"settings.advanced.credits" = "Data sources / credits";
+
+/* Menu bar context menu */
+"menu.refresh_now" = "Refresh now";
+"menu.switch_location" = "Switch location";
+"menu.settings" = "Settings…";
+"menu.about" = "About StatusForecast";
+"menu.quit" = "Quit StatusForecast";
+
+/* Tooltip */
+"tooltip.now" = "Now %.1f°C";
+"tooltip.humidity" = "Humidity %d%%";

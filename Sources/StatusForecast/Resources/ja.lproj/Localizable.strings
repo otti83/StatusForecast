@@ -1,0 +1,237 @@
+/* StatusForecast — 日本語 */
+
+/* Tabs / sections */
+"tab.today" = "今日";
+"tab.weekly" = "週間";
+"tab.environment" = "環境";
+"tab.map" = "周辺";
+"map.legend.temp" = "気温";
+"map.legend.wind" = "風向";
+"map.subtitle" = "%@ 周辺の現在気温と風";
+"loading.map" = "周辺グリッドを取得中…";
+"env.uv" = "UV インデックス";
+"env.uv.peak_at" = "ピーク %@ 時に %.1f";
+"env.uv.low" = "弱い";
+"env.uv.moderate" = "中程度";
+"env.uv.high" = "強い";
+"env.uv.veryhigh" = "非常に強い";
+"env.uv.extreme" = "極端";
+"env.aqi" = "空気質 (US AQI)";
+"env.aqi.pm25" = "PM2.5 %.0f μg/m³";
+"env.aqi.pm10" = "PM10 %.0f μg/m³";
+"env.aqi.good" = "良";
+"env.aqi.moderate" = "並";
+"env.aqi.usg" = "敏感者に悪い";
+"env.aqi.unhealthy" = "悪い";
+"env.aqi.veryunhealthy" = "非常に悪い";
+"env.aqi.hazardous" = "危険";
+"env.visibility" = "視程";
+"env.visibility.km" = "%.0f km";
+"env.sunshine" = "日照時間";
+"env.sunshine.hours" = "%.1f 時間";
+"env.cloud" = "雲量";
+"env.cloud.now" = "%.0f%%";
+"loading.env" = "環境データを取得中…";
+"env.humidity" = "湿度";
+"env.pressure" = "気圧 (海面)";
+"env.wind" = "風速";
+"env.wind.solid" = "風";
+"env.wind.gust" = "突風";
+"env.visibility.chart" = "視程";
+"env.cloud.layers" = "雲層";
+"env.cloud.low" = "下層";
+"env.cloud.mid" = "中層";
+"env.cloud.high" = "上層";
+"env.radiation" = "日射量";
+"env.radiation.unit" = "W/m²";
+"tab.rain" = "雨雲";
+"section.observation" = "実況 %@";
+"section.today_24h" = "今日";
+"section.tomorrow_24h" = "明日";
+"chart.label.temp" = "温度[%@]";
+"chart.label.precip" = "降水量[mm]";
+"section.todays_lohi" = "今日の最低 / 最高";
+"tile.temp_range" = "最低/最高";
+"section.weekly_temp" = "週間気温";
+"section.reliability" = "信頼度";
+
+/* Tile titles */
+"tile.humidity" = "湿度";
+"tile.wind" = "風";
+"tile.pressure" = "気圧";
+"tile.rain_1h" = "1h雨量";
+"tile.rain_24h" = "24h雨量";
+"tile.sun_1h" = "日照(1h)";
+"tile.apparent" = "体感";
+"tile.discomfort" = "不快指数 %d  %@";
+
+/* Discomfort labels */
+"discomfort.chilly" = "肌寒い";
+"discomfort.neutral" = "何も感じない";
+"discomfort.comfortable" = "快適";
+"discomfort.warm" = "やや暑い";
+"discomfort.hot" = "暑い";
+"discomfort.sweaty" = "暑くて汗が出る";
+"discomfort.extreme" = "暑くてたまらない";
+
+/* Day labels */
+"day.today" = "今日";
+"day.tomorrow" = "明日";
+
+/* POP */
+"pop.slot.0_6" = "0–6 時";
+"pop.slot.6_12" = "6–12 時";
+"pop.slot.12_18" = "12–18 時";
+"pop.slot.18_24" = "18–24 時";
+"pop.row.today" = "今日";
+"pop.row.tomorrow" = "明日";
+"pop.note.openmeteo" = "※ 翌日は Open-Meteo の 1h 予測を 6h 集計";
+"pop.note.jma_pending" = "※ 翌日 6h は JMA 朝 5 時発表後に公開";
+
+/* Rain tab */
+"rain.title" = "60 分降水予測";
+"rain.subtitle.yahoo" = "Yahoo! 気象情報API";
+"rain.subtitle.mesh" = "1 km メッシュ・10 分刻み";
+"rain.area" = "地域";
+"rain.legend.observed" = "実測 (過去 60 分)";
+"rain.legend.forecast" = "予測 (今後 60 分)";
+"rain.unit" = "単位: mm/h";
+"rain.next_rain" = "雨の予測";
+"rain.next.in" = "あと %d 分";
+"rain.next.none" = "60 分以内なし";
+"rain.max60" = "60 分内の最大";
+"rain.latest_obs" = "直近の実測";
+"rain.footnote" = "降水強度は気象レーダー観測値を時間雨量に換算した値で、実際の雨量とは異なります。";
+"rain.issued_at" = "基準時刻 %@";
+
+/* Weather categories */
+"weather.sunny" = "晴れ";
+"weather.partlyCloudy" = "晴れ時々曇り";
+"weather.cloudy" = "くもり";
+"weather.rain" = "雨";
+"weather.heavyRain" = "大雨";
+"weather.sleet" = "みぞれ";
+"weather.snow" = "雪";
+"weather.thunder" = "雷雨";
+"weather.fog" = "霧";
+"weather.unknown" = "—";
+
+/* Wind directions */
+"wind.calm" = "静穏";
+"wind.dir.N" = "北";
+"wind.dir.NNE" = "北北東";
+"wind.dir.NE" = "北東";
+"wind.dir.ENE" = "東北東";
+"wind.dir.E" = "東";
+"wind.dir.ESE" = "東南東";
+"wind.dir.SE" = "南東";
+"wind.dir.SSE" = "南南東";
+"wind.dir.S" = "南";
+"wind.dir.SSW" = "南南西";
+"wind.dir.SW" = "南西";
+"wind.dir.WSW" = "西南西";
+"wind.dir.W" = "西";
+"wind.dir.WNW" = "西北西";
+"wind.dir.NW" = "北西";
+"wind.dir.NNW" = "北北西";
+
+/* Header / footer */
+"header.no_location" = "地点未設定";
+"header.refresh" = "最新の天気に更新";
+"header.open_in_browser" = "公式予報ページをブラウザで開く";
+"footer.last_updated" = "最終更新 %@";
+"footer.settings" = "設定";
+
+/* Loading / error */
+"loading.amedas" = "AMeDAS 実況を取得中…";
+"loading.weekly" = "週間予報を取得中…";
+"loading.yahoo" = "Yahoo! 降水予測を取得中…";
+"error.no_location" = "地点が設定されていません";
+
+/* Issues */
+"issue.jma" = "JMA 予報を取得できませんでした";
+"issue.amedas" = "AMeDAS 実況を取得できませんでした";
+"issue.yahoo" = "Yahoo! 降水予測を取得できませんでした";
+"issue.yahoo.no_key" = "Yahoo! API キー未設定";
+"issue.openMeteo" = "Open-Meteo の hourly 予報を取得できませんでした";
+"issue.wifi_only_skip" = "Wi-Fi 接続のみモード — 自動更新をスキップ";
+
+/* Display modes */
+"display.weekly" = "週間";
+"display.realtime" = "リアルタイム";
+"display.daily" = "1日";
+
+/* Icon styles */
+"icon.mono" = "モノクロ";
+"icon.color" = "カラー";
+
+/* Refresh intervals */
+"refresh.minutes" = "%d 分";
+
+/* Settings — tabs */
+"settings.tab.general" = "一般";
+"settings.tab.locations" = "地点";
+"settings.tab.refresh" = "更新";
+"settings.tab.advanced" = "詳細";
+
+/* General tab */
+"settings.general.display" = "表示";
+"settings.general.startup" = "起動";
+"settings.general.menubar_mode" = "メニューバー表示モード";
+"settings.general.icon" = "アイコン";
+"settings.general.decimal" = "気温を小数で表示";
+"settings.general.unit" = "気温の単位";
+"settings.general.unit.metric" = "摂氏 (°C)";
+"settings.general.unit.imperial" = "華氏 (°F)";
+"settings.general.launch_at_login" = "ログイン時に自動起動";
+"settings.general.refresh_on_launch" = "起動時に即更新";
+"settings.general.open_login_items" = "システム設定 → ログイン項目を開く";
+"settings.general.language" = "言語";
+"settings.general.language_note" = "即座に反映されます。次回起動時も保持されます。";
+"settings.general.language.system" = "システム";
+"settings.general.language.en" = "English";
+"settings.general.language.ja" = "日本語";
+
+/* Refresh tab */
+"settings.refresh.interval" = "自動更新間隔";
+"settings.refresh.wifi_only" = "Wi-Fi 接続時のみ更新";
+"settings.refresh.last" = "最終更新";
+"settings.refresh.now" = "いま更新";
+
+/* Locations tab */
+"settings.locations.registered" = "登録地点";
+"settings.locations.add" = "地点を追加";
+"settings.locations.search_placeholder" = "地名を入力 (例: 東京、大阪、San Francisco)";
+"settings.locations.cancel" = "キャンセル";
+"settings.locations.searching" = "検索中…";
+"settings.locations.no_results" = "該当地点なし";
+"settings.locations.region.japan" = "日本 (JMA)";
+"settings.locations.region.global" = "海外 (Open-Meteo)";
+
+/* Advanced tab */
+"settings.advanced.yahoo_credentials" = "Yahoo! 気象情報API クレデンシャル";
+"settings.advanced.yahoo_client_id" = "Yahoo! Client ID (YOLP appid)";
+"settings.advanced.save" = "保存";
+"settings.advanced.clear" = "クリア";
+"settings.advanced.set" = "設定済み";
+"settings.advanced.unset" = "未設定";
+"settings.advanced.import_note" = "初回起動時に `~/Desktop/StatusForecast/Weather API.txt` から自動移入します。";
+"settings.advanced.maintenance" = "メンテナンス";
+"settings.advanced.yahoo_requests" = "本日の Yahoo! リクエスト数 (概算)";
+"settings.advanced.clear_cache" = "ディスクキャッシュを消去";
+"settings.advanced.cache_cleared" = "キャッシュを消去しました";
+"settings.advanced.openmeteo" = "Open-Meteo";
+"settings.advanced.openmeteo.toggle" = "Open-Meteo を使用 (時間別予報)";
+"settings.advanced.openmeteo.note" = "1 時間刻みの気温・湿度・風・降水確率を補完。OFF にすると JMA のみで動作します。";
+"settings.advanced.credits" = "データソース / クレジット";
+
+/* Menu bar context menu */
+"menu.refresh_now" = "今すぐ更新";
+"menu.switch_location" = "地点を切替";
+"menu.settings" = "設定…";
+"menu.about" = "StatusForecast について";
+"menu.quit" = "StatusForecast を終了";
+
+/* Tooltip */
+"tooltip.now" = "現在 %.1f°C";
+"tooltip.humidity" = "湿度 %d%%";

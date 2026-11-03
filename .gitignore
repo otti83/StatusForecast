@@ -1,0 +1,16 @@
+.build/
+build/
+DerivedData/
+*.xcodeproj
+*.xcworkspace
+.swiftpm/
+Package.resolved
+.DS_Store
+*.log
+Sources/StatusForecast/Resources/credentials.json
+Weather API.txt
+Sources.zip
+Sources*.zip
+
+.claude/
+dist/
